@@ -37,6 +37,11 @@
 .container-fluid {
     --bs-gutter-x: 0;
     }
+
+.decoracion-letras {
+    font-size: 16px;
+    font-family: var(--fuentePrincipal);
+}
 @media (min-width: 768px) {
     .tamaño {
         padding: 2rem;
@@ -44,12 +49,7 @@
     }
 }
 
-.logo {
-    
-    width: 500px;
 
-    
-}
 .menu {
         color: white;
         padding: 1rem;
@@ -73,8 +73,11 @@
        
  /*globales*/
     @media (min-width: 468px) {
-        h1, h2 {
+        h1, h2, h4 {
             font-size: 1.6rem;
+        }
+        .mi-logo {
+            padding: auto;
         }
         
     }
@@ -145,6 +148,10 @@
     h3 {
         font-size: 2.4rem;
     
+    }
+    h4 {
+        font-size: 2rem;
+        color: black;
     }
     
     /**header**/
@@ -309,7 +316,7 @@
     @media (min-width: 768px) {
         .bloques {
             grid-template-columns: repeat(4, 1fr);
-        }  
+      
     }
     .bloque {
         text-align: center;
@@ -319,14 +326,19 @@
         margin: 0;
     }
     
-   /* nosotros */
+   /* nosotros y fecha*/
    .item {
     color: #fff;
    }
 
    .color {
     background-color: #d84a08;
+    /* padding-left: 2%; */
+    color: white;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
    }
-
+}  
   
  
