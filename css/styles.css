@@ -254,7 +254,8 @@
         
     
     .corredor__imagen {
-        visibility:collapse;
+        visibility:inherit;
+
     }
     }
     .corredor__nombre{
