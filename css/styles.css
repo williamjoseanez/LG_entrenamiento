@@ -219,6 +219,7 @@
     }
     .corredor__imagen {
         padding: auto;
+        width: auto;
     }
         }
     @media (min-width: 768px) {
@@ -227,6 +228,7 @@
             }
             .corredor__imagen {
                 padding: auto;
+                width: auto;
             }
     }
 
