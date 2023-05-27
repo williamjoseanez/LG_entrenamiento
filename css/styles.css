@@ -360,5 +360,33 @@
     padding: 1%;
    }
 }  
+/* formulario */
+@media (min-width: 468px) {
+    
+
+.formulario {
+    background-color: #df3f0e;
+    margin: 10rem;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+
+}
+.color3 {
+    background-color: #fff;
+}
+.terminos {
+    color: #fff;
+}
+.terminos2 {
+    color: #000;
+}
+.comentarios {
+    color: #000;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+}
 
  
