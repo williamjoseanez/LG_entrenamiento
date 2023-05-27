@@ -225,18 +225,18 @@
     
     }
     
-    .producto__nombre{
+    .corredor__nombre{
         font-size: 4rem;
         
     }
     
-    .producto__precio{
+    .corredor__leyenda{
      font-size: 2.8rem;
      color: var(--secundario);
     }
     
-    .producto__nombre,
-    .producto__precio {
+    .corredor__nombre,
+    .corredor__leyenda {
         font-family: var(--fuentePrincipal);
         margin: 1rem 0;
         text-align: center;
