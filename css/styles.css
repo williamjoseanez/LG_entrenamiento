@@ -1,0 +1,321 @@
+/* RESET BÁSICO GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+:root {
+    --primario: #df3f0e;
+    --primarioOscuro: #d84a08;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/* BARRA NAVEGACIÓN */
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: var(--negro);
+}
+
+.mi-logo {
+    height: 50px;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0;
+    }
+@media (min-width: 768px) {
+    .tamaño {
+        padding: 2rem;
+        width: 800px;
+    }
+}
+
+.logo {
+    
+    width: 500px;
+
+    
+}
+.menu {
+        color: white;
+        padding: 1rem;
+        margin: 5px;
+        gap: 4rem;
+        text-align: justify;
+        font-size: 2rem;
+    }
+
+
+
+
+/*galeria*/
+  
+    
+    html {
+        box-sizing: border-box;
+        font-size: 62.5%;
+    }
+    
+       
+ /*globales*/
+    @media (min-width: 468px) {
+        h1, h2 {
+            font-size: 1.6rem;
+        }
+        
+    }
+    body {
+        background-color: var(--negro);
+        font-size: 1.6rem;
+        line-height: 1.5;
+       
+    }
+    @media (min-width: 768px) {
+        .principal{
+            /* background-image: url(../img/montanas.jpg);
+            background-repeat: no-repeat; */
+            background-size: 1800px;
+
+        }
+       .estiloImagen {
+        width: 600px;
+       }
+      
+     
+    }
+    .margenes {
+        padding: 1rem;
+       
+       }
+    
+    p{ 
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--blanco);
+        justify-content: center;
+        text-align: justify;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .by {
+        padding: 0rem 0rem 1rem 0rem;
+        text-align: right;
+        margin: 0 auto;
+        line-height: 1.2;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .contenedor {
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+    
+    h1, h2, h3 {
+        text-align: center;
+        color: var(--secundario);
+        font-family: var(--fuentePrincipal);
+    
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    h3 {
+        font-size: 2.4rem;
+    
+    }
+    
+    /**header**/
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header__logo {
+        margin: 3rem 1rem 1rem 3rem;
+    }
+    /**footer**/
+    
+    .footer {
+        background-color: var(--negro);
+        padding: 1rem 0;
+        margin-top: 2rem;
+        
+    }
+    .footer__texto {
+        text-align: center;
+        font-family: var(--fuentePrincipal);
+        font-size: 2.2rem;
+        background-color: #d84a08;
+    }
+    
+    
+    /**navegacion*/
+    .navegacion {
+        background-color: var(--primarioOscuro);
+        padding: 1rem;
+        display: flex;
+    
+    }
+
+    /*distscion entre cajas*/
+    .separacion {
+        padding: 3rem;
+        margin-top: 3%;
+    }
+    @media (min-width: 768px) {
+        .imagen {
+            padding: 20px;
+        }
+    }
+    
+
+    .figura {
+        width: 200px;
+    }
+
+    .btn {
+        font-size: 3rem;
+        border-radius: 2rem;
+        background-color: var(--primarioOscuro);
+        color: #000;
+        border-color: black;
+    }
+    /**Grid**/
+    @media (min-width: 468px) {
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;  
+    }
+        }
+    @media (min-width: 768px) {
+        .grid {
+            grid-template-columns: repeat(3, 1fr);
+            }
+    }
+
+    /**productos**/
+    
+    .fotos{
+        background-color: var(--primarioOscuro);
+        padding: 1rem;
+    
+    }
+    
+    .producto__nombre{
+        font-size: 4rem;
+        
+    }
+    
+    .producto__precio{
+     font-size: 2.8rem;
+     color: var(--secundario);
+    }
+    
+    .producto__nombre,
+    .producto__precio {
+        font-family: var(--fuentePrincipal);
+        margin: 1rem 0;
+        text-align: center;
+        line-height: 1.2;
+    }
+    
+    /** Graficos**/
+    .grafico {
+        min-height: 30rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 1 / 3;
+    
+    }
+    .grafico--camisas {
+        grid-row: 2 / 3;
+        background-image: url(../img/grafico1.jpg);
+    }
+    
+    .grafico--node {
+        grid-row: 8 / 9;
+        background-image: url(../img/grafico2.jpg);
+    }
+    
+    @media (min-width: 768px) {
+    .grafico--node {
+        grid-row: 5 / 6;
+        grid-column: 2 / 4;
+        }
+    }
+    
+    /**Nosotros**/
+    .nosotros {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+    }
+    @media (min-width: 768px) {
+        .nosotros {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2rem;
+        }    
+    }
+    .nosotros__imagen {
+        grid-row: 1 / 2;
+       
+    }
+    @media (min-width: 768px) {
+        .nosotros__imagen {
+            grid-column: 2 / 3;
+        }
+    }
+    /*bloques*/
+    
+    .bloques {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (min-width: 768px) {
+        .bloques {
+            grid-template-columns: repeat(4, 1fr);
+        }  
+    }
+    .bloque {
+        text-align: center;
+    }
+    
+    .bloque__titulo {
+        margin: 0;
+    }
+    
+   /* nosotros */
+   .item {
+    color: #fff;
+   }
+
+   .color {
+    background-color: #d84a08;
+   }
+
+  
+ 
