@@ -182,7 +182,13 @@
     
     /**navegacion*/
     @media (min-width: 468px) {
-        
+        .fondoLogo {
+            background-color: #000;
+            display:grid;
+            justify-content: center;
+
+            
+        }
    
     .navegacion {
         background-color: var(--primarioOscuro);
@@ -253,8 +259,8 @@
     @media (min-width: 468px) {
         
     
-    .corredor__imagen {
-        visibility:inherit;
+    .corredor__imagen .fotos{
+        visibility:unset;
 
     }
     }
