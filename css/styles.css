@@ -248,8 +248,15 @@
         background-color: var(--primarioOscuro);
         padding: 1rem;
     
-    }
     
+    }
+    @media (min-width: 468px) {
+        
+    
+    .corredor__imagen {
+        visibility: initial;
+    }
+    }
     .corredor__nombre{
         font-size: 4rem;
         
