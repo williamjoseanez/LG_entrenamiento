@@ -217,10 +217,16 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;  
     }
+    .corredor__imagen {
+        padding: auto;
+    }
         }
     @media (min-width: 768px) {
         .grid {
             grid-template-columns: repeat(3, 1fr);
+            }
+            .corredor__imagen {
+                padding: auto;
             }
     }
 
