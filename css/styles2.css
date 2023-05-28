@@ -141,6 +141,7 @@
       
       .tooltip-big-text {
         --balloon-font-size: 20px;
+        background-color: #d84a08;
       }
       
       .tooltip-slide {
