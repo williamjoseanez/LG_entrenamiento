@@ -197,7 +197,7 @@
     
     }
 }
-@media (min-width: 468px) {
+/* @media (min-width: 468px) { */
     
 
     .color2 {
@@ -209,7 +209,7 @@
         position: relative;
         text-align: center;
        }
-    }
+    /* } */
 
     /*distscion entre cajas*/
     .separacion {
@@ -369,7 +369,7 @@
     color: #fff;
    }
 }
-@media (min-width: 300px) {
+/* @media (min-width: 300px) { */
     
    .color {
     background-color: #d84a08;
@@ -379,9 +379,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
    }
-}  
+/* }   */
 /* formulario */
-@media (min-width: 468px) {
+/* @media (min-width: 468px) { */
     
 
 .formulario {
@@ -407,8 +407,8 @@
     font-size: 2rem;
     border-radius: 1rem;
 }
-}
-@media (min-width: 300px) {
+/* } */
+/* @media (min-width: 300px) { */
     
 
 .containerFormulario {
@@ -416,11 +416,11 @@
     background-color: #d84a08;
     border-radius: 2rem;
         }
-    }
+    /* } */
     
 .container {
 width: auto;
-background-color: #000;
+/* background-color: #000; */
 border-radius: 2rem;
     }
 
