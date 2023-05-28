@@ -204,8 +204,8 @@
     @media (min-width: 768px) {  
         
     .separacion {
-        padding: 3rem;
-        margin-top: 3%;
+        /* padding: 2rem; */
+        margin-top: 2%;
     }
 }
     @media (min-width: 768px) {
@@ -411,11 +411,21 @@ width: auto;
 border-radius: 2rem;
     }
 
-    /* 2023 carreras */
+/* 2023 carreras */
     .card:hover {
         box-shadow: 5px 5px 20px rgba(212, 133, 29, 0.808);
         transform: translateY(-3%);
     }
  .textoSanJuan {
     padding: 2rem;
+ }
+
+ .fotos:hover {
+    box-shadow: 5px 5px 20px rgba(212, 133, 29, 0.808);
+        transform: translateY(-3%);
+ }
+ @media (min-width: 300px) {
+     .card {
+        margin: 2rem;
+     }
  }
