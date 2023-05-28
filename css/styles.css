@@ -88,19 +88,19 @@
         line-height: 1.5;
        
     }
-    @media (min-width: 768px) {
+    /* @media (min-width: 768px) {
         .principal{
             /* background-image: url(../img/montanas.jpg);
             background-repeat: no-repeat; */
-            background-size: 1800px;
+            /* background-size: 1800px;
 
         }
        .estiloImagen {
         width: 600px;
        }
       
-     
-    }
+      */
+    /* } */ 
     .margenes {
         padding: 1rem;
        
@@ -181,7 +181,7 @@
     
     
     /**navegacion*/
-    @media (min-width: 468px) {
+    /* @media (min-width: 468px) { */
         .fondoLogo {
             background-color: #000;
             display:grid;
@@ -196,9 +196,7 @@
         display: flex;
     
     }
-}
-/* @media (min-width: 468px) { */
-    
+/* } */
 
     .color2 {
         background-color: #d84a08;
@@ -209,14 +207,14 @@
         position: relative;
         text-align: center;
        }
-    /* } */
+  
 
     /*distscion entre cajas*/
     .separacion {
         background-color: #000;
     }
-    @media (min-width: 768px) {
-          
+    @media (min-width: 768px) {  
+        
     .separacion {
         padding: 3rem;
         margin-top: 3%;
@@ -262,14 +260,14 @@
     
     
     }
-    @media (min-width: 468px) {
+    /* @media (min-width: 468px) {
         
     
     .corredor__imagen .fotos{
         visibility:unset;
 
     }
-    }
+    } */
     .corredor__nombre{
         font-size: 4rem;
         
@@ -369,7 +367,6 @@
     color: #fff;
    }
 }
-/* @media (min-width: 300px) { */
     
    .color {
     background-color: #d84a08;
@@ -379,9 +376,13 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
    }
-/* }   */
+
 /* formulario */
-/* @media (min-width: 468px) { */
+@media (min-width: 350px) {
+    .containerFormulario {
+        width: auto;
+    }
+}
     
 
 .formulario {
@@ -407,16 +408,14 @@
     font-size: 2rem;
     border-radius: 1rem;
 }
-/* } */
-/* @media (min-width: 300px) { */
-    
+
 
 .containerFormulario {
     width: auto;
     background-color: #d84a08;
     border-radius: 2rem;
         }
-    /* } */
+  
     
 .container {
 width: auto;
