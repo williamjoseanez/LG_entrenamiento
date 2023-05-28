@@ -197,7 +197,7 @@
     
     }
 }
-@media (min-width: 300px) {
+@media (min-width: 468px) {
     
 
     .color2 {
@@ -212,10 +212,13 @@
     }
 
     /*distscion entre cajas*/
+    @media (min-width: 768px) {
+          
     .separacion {
         padding: 3rem;
         margin-top: 3%;
     }
+}
     @media (min-width: 768px) {
         .imagen {
             padding: 20px;
@@ -375,7 +378,7 @@
    }
 }  
 /* formulario */
-@media (min-width: 300px) {
+@media (min-width: 468px) {
     
 
 .formulario {
@@ -401,6 +404,14 @@
     font-size: 2rem;
     border-radius: 1rem;
 }
+}
+@media (min-width: 468px) {
+    
+.container {
+    width: auto;
+    background-color: #d84a08;
+    border-radius: 2rem;
+    }
 }
 
  
