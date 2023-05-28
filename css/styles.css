@@ -212,6 +212,9 @@
     }
 
     /*distscion entre cajas*/
+    .separacion {
+        background-color: #000;
+    }
     @media (min-width: 768px) {
           
     .separacion {
@@ -405,13 +408,20 @@
     border-radius: 1rem;
 }
 }
-@media (min-width: 468px) {
+@media (min-width: 300px) {
     
-.container {
+
+.containerFormulario {
     width: auto;
     background-color: #d84a08;
     border-radius: 2rem;
+        }
     }
-}
+    
+.container {
+width: auto;
+background-color: #000;
+border-radius: 2rem;
+    }
 
  
