@@ -411,4 +411,9 @@ width: auto;
 border-radius: 2rem;
     }
 
+    /* 2023 carreras */
+    .card:hover {
+        box-shadow: 5px 5px 20px rgba(212, 133, 29, 0.808);
+        transform: translateY(-3%);
+    }
  
