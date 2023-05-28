@@ -226,9 +226,11 @@
         color: #000;
         border-color: black;
     }
+
+
     /**Grid**/
     @media (min-width: 468px) {
-        .grid{
+        .grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;  
@@ -238,6 +240,21 @@
         .grid {
             grid-template-columns: repeat(3, 1fr);
             }
+    }
+    /* gridExtraCArrera2023 */
+    @media (min-width: 468px) {
+        .gridExtra{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+           
+    }
+        }
+   
+    @media (min-width: 768px) {
+        .gridExtra {
+            grid-template-columns:repeat(5, 1fr);
+            margin: 2rem;
+        }
     }
 
     /**productos**/
