@@ -1,6 +1,6 @@
-/* uso de balloon */
+/* uso de balloon  */
 
-/* :root {
+:root {
     --balloon-border-radius: 2px;
     --balloon-color: rgba(16, 16, 16, 0.95);
     --balloon-text-color: #fff;
@@ -150,4 +150,4 @@
 
       .agrandarIcono{
         font-size: 20px;
-      } */
+      }
