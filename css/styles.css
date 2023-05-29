@@ -122,7 +122,7 @@
         margin: 0 auto;
     }
     
-    h1, h2, h3 {
+    h1, h2, h3, h5 {
         text-align: center;
         color: var(--secundario);
         font-family: var(--fuentePrincipal);
@@ -141,6 +141,12 @@
     h4 {
         font-size: 2rem;
         color: black;
+    }
+    h5 {
+        font-size: 2rem;
+        color: #5c3407;
+        background-color: #fff;
+        background-size: 2rem
     }
     
     /**header**/
