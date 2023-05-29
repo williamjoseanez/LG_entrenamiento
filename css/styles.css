@@ -270,6 +270,13 @@
             grid-template-columns: repeat(3, 1fr);
             }
     }
+.margen {
+    justify-self: start;
+    justify-self: center;
+    justify-self: end;
+}
+    
+
 
     /**productos**/
     
