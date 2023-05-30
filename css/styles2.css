@@ -7,7 +7,7 @@
     --balloon-font-size: 12px;
     --balloon-move: 4px; }
   
-  button[aria-label][data-balloon-pos] {
+  /* button[aria-label][data-balloon-pos] {
     overflow: visible; }
   
   [aria-label][data-balloon-pos] {
@@ -128,10 +128,10 @@
     [aria-label][data-balloon-pos][data-balloon-length="large"]:after {
       width: 260px; }
     [aria-label][data-balloon-pos][data-balloon-length="xlarge"]:after {
-      width: 380px; }
-      @media screen and (max-width: 768px) {
+      width: 380px; } */
+      /* @media screen and (max-width: 768px) {
         [aria-label][data-balloon-pos][data-balloon-length="xlarge"]:after {
-          width: 90vw; } }
+          width: 90vw; } } */
     [aria-label][data-balloon-pos][data-balloon-length="fit"]:after {
       width: 100%; }
 
