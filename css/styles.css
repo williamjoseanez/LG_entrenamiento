@@ -46,6 +46,7 @@
     .tamaño {
         padding: 2rem;
         width: 800px;
+        font-family: var(--fuentePrincipal);
     }
 
 .logo {
@@ -79,6 +80,7 @@
     @media (min-width: 468px) {
         h1, h2, h4 {
             font-size: 1.6rem;
+            font-family: var(--fuentePrincipal);
         }
         
     }
@@ -173,6 +175,15 @@
         background-color: #d84a08;
     }
     
+    @media (min-width: 468px) {
+        .footer__texto {
+            text-align: center;
+            font-family: var(--fuentePrincipal);
+            font-size: 2.2rem;
+            background-color: #d84a08;
+        }
+        
+    }
     
     /**navegacion*/
     /* @media (min-width: 468px) { */
@@ -318,6 +329,15 @@
         line-height: 1.2;
     }
     
+    @media (min-width: 468px) {
+        .corredor__nombre,
+        .corredor__leyenda {
+            font-family: var(--fuentePrincipal);
+            margin: 1rem 0;
+            text-align: center;
+            line-height: 1.2;
+        }
+    }
     /** Graficos**/
     .grafico {
         min-height: 30rem;
