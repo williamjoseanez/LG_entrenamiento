@@ -84,9 +84,10 @@
         
     }
     body {
-        background-image: linear-gradient(to bottom, #000, #b94e2d38);
+        /* background-image: linear-gradient(to bottom, #000, #b94e2d38); */
         font-size: 1.6rem;
         line-height: 1.5;
+        background-color: #000;
        
     }
 
@@ -290,6 +291,7 @@
     justify-self: start;
     justify-self: center;
     justify-self: end;
+    
 }
     
 
@@ -523,12 +525,15 @@ border-radius: 2rem;
  }
 
 
+
  /* animaciones y transcisiones */
 
  /* .transiccion:hover {
     transform: translate(-10px, -50px);
  } */
-
+ .fondo {
+    --bs-body-bg: #000;
+ }
 
  .transiccion {
     animation-name: move;
@@ -560,9 +565,9 @@ border-radius: 2rem;
     
     }
 }
-
 .transiccion-pulse {
     animation: pulse infinite 1.4s alternate;
+    
     
 }
 
